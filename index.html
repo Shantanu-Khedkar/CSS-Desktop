@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="nav-bar">
+        <div class="nav-center">
+            <p>
+            <ul>
+                <li class="nav-credits">
+                    <a id="system-tray">
+                        <div class="nav-btn">
+                            <img width="18px" src="./icons/network-wireless-signal-good.svg"></img>
+                            <img width="18px" src="./icons/audio-volume-medium.svg"></img>
+                            <img width="18px" src="./icons/battery-080.svg"></img>
+                            <span>40%</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="nav-middle">
+                    <a id="system-notifications">
+                        <div class="nav-btn"><span id="system-date">Dec 14 7:53 AM</span></div>
+                    </a>
+                </li>
+                <li class="nav-left">
+                    <a id="system-activity-button">
+                        <div class="nav-btn"><span>Activites</span></div>
+                    </a>
+                    <a id="system-running-task">
+                        <div class="nav-btn"><img style="color:white" width="18px"
+                                src="./icons/org.gnome.Terminal-symbolic.svg"></img><span>Terminal</span></div>
+                    </a>
+                </li>
+
+            </ul>
+            </p>
+        </div>
+
+    </div>
+
+    <section class="Desktop" id="Desktop">
+
+        <div class="window" id="window-1">
+            <div class="window-titlebar" id="window-1header" draggable="true">
+                <div class="window-controls">
+                    <div class="window-btn">
+                        <img class="filter-white" width="16px" src="./icons/window-minimize.svg"></img>
+                    </div>
+                    <div class="window-btn">
+                        <img class="filter-white" width="16px" src="./icons/window-close.svg"></img>
+                    </div>
+                </div>
+                <div class="window-non-controls">
+                    <a id="system-notifications">
+                        <div class="window-titlebar-title"><span>Window Title (or stuff ig)</span></div>
+                    </a>
+                </div>
+            </div>
+            windowcontent
+        </div>
+    </section>
+    <div class="Dock">
+
+        <div class="task-center">
+            <p>
+            <ul>
+
+                <li class="task-middle">
+                    <a href="#app-terminal" onclick="open_app(this.href, this)">
+                        <div class="task-icon selected-icon"><img width="36px"
+                                src="./icons/utilities-terminal.svg"></img></div>
+                    </a>
+                    <a href="#app-fractal" onclick="open_app(this.href, this)">
+                        <div class="task-icon"><img width="36px" src="./icons/org.gnome.Fractal.svg"></img></div>
+                    </a>
+                    <a href="#app-files" onclick="open_app(this.href, this)">
+                        <div class="task-icon"><img width="36px" src="./icons/system-file-manager.svg"></img></div>
+                    </a>
+                    <a href="#app-firefox" onclick="open_app(this.href, this)">
+                        <div class="task-icon"><img width="36px" src="./icons/firefox.svg"></img></div>
+                    </a>
+                </li>
+                <li class="task-left">
+                    <a id="system-launcher">
+                        <div class="task-icon"><img class="filter-white" width="36px"
+                                src="./icons/view-app-grid-symbolic.svg"></img></div>
+                    </a>
+                </li>
+
+            </ul>
+            </p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
