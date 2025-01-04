@@ -50,7 +50,7 @@ a way to get a weird filesystem working. So, I think that making a GitHub repo o
 reset as on 'boot' the filesystem would entirely be reloaded.
 
 ## Somewhere along the way...
-If this is going to turn into a funky OS, it might as well be good to define standards and API's too. This projects could extend as deep
+If this is going to turn into a funky OS, it might as well be good to define standards and API's too. This project could extend as deep
 as needed. It could stop at just having the users link their google cloud shell, or their actual shell (a node runtime that serves 
 the website would be needed for this). It could however also extend to developing a complete implementation of an OS in js. I'm sure this
 already exists... Infact, im sure what CSS-Desktop ultimately aims to be already exists too.. A website that runs an OS and looks beautiful.
