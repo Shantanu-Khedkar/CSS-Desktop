@@ -2,6 +2,9 @@
  CSS-Desktop is meant to be a recreation of the Gnome desktop environment, with my setup specifically for now. 
  I use extensions like dash-to-dock, blur-my-shell etc. The goal was originally just to make a non-functional
  look-alike interface, but I now see that it can be extended much further...
+ ## My Current Desktop
+ <img src="ActualDesktop.png" alt="Current Desktop" width="500"/>
+ I've created the wallpaper in Inkscape myself by-the-way...
 
 # What will it be able to do?
 I would like CSS-Desktop to try to replicate gnome's functionality as close as possible. From the activities menu,
