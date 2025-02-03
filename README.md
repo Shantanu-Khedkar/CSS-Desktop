@@ -31,7 +31,7 @@ be left incomplete, that would be integrated and redefined later.
 
 ## The Windowing System
 Once, CSS-Desktop has a solid base the windowing system needs to be attended to. This is where the JS comes into play.
-A extendable way of creating, adressing, and managing windows need to be made. A sort of an internal API that handles
+A extendable way of creating, addressing, and managing windows need to be made. A sort of an internal API that handles
 all the windows is going to have to be created. This API would be able to provide an easy way to create a window, add it
 to the list of open apps, and manage multiple instances of an app. The right-click menus in the bottom dock should work.
 A major challange in this is the active windows and how they will stack on each other (z-index). This API also has to deal
