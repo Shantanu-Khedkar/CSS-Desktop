@@ -39,8 +39,8 @@ with window snapping.
 
 ## The Apps
 This part is very tricky and all steps prior to it must keep its implementation in mind. The windows will have running contents,
-and thing should be able to work within them. Currently, I'm planning to run the apps off of iframes (I understand that it
-may be tricky to get them to interact with the desktop/underlying OS, so maybe some other window-content template. The goal is to
+and things should be able to work within them. Currently, I'm planning to run the apps off of iframes (I understand that it
+may be tricky to get them to interact with the desktop/underlying OS, so maybe some other window-content template.) The goal is to
 have developers make HTML/CSS/JS 'apps' that run in the windows. It would be really cool if they could be written in C and compiled 
 to WASM, but im getting ahead of myself. Anyways, once CSS-Desktop has a way to display apps, the challange of permissions arises...
 Developers shouldn't be able to just delete parent components of the app they make. (I don't know how this might be possible)
