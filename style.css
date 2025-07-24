@@ -258,8 +258,8 @@ li.task-middle {
 
 .window {
   border-radius: 10px;
-  min-height: 30px;
-  min-width: 30px;
+  min-height: 200px;
+  min-width: min-content;
   overflow-x: hidden;
   resize: both;
   max-height: 100%;
@@ -295,10 +295,13 @@ li.task-middle {
   font-size: 15px;
   font-weight: 500;
   stroke: black 1px;
-  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   height: 30px;
-  line-height: 30px;
   background-color: #00000000;
   -webkit-text-stroke: 0.5px #ffffff;
   border-radius: 20px;
@@ -322,7 +325,7 @@ li.task-middle {
 }
 .window-btn:hover{
   background-color: #373737;
-  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.524);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.524);
 }
 .window-btn img{
   transform: translateY(2px);
