@@ -12,38 +12,25 @@
 <body>
 
     <div class="nav-bar">
-        <div class="nav-center">
-            <p>
-            <ul>
-                <li class="nav-credits">
-                    <a id="system-tray">
-                        <div class="nav-btn">
-                            <img width="18px" src="./icons/network-wireless-signal-good.svg"></img>
-                            <img width="18px" src="./icons/audio-volume-medium.svg"></img>
-                            <img width="18px" src="./icons/battery-080.svg"></img>
-                            <span>40%</span>
-                        </div>
-                    </a>
-                </li>
-
-                <li class="nav-middle">
-                    <a id="system-notifications">
-                        <div class="nav-btn"><span id="system-date">Dec 14 7:53 AM</span></div>
-                    </a>
-                </li>
-                <li class="nav-left">
-                    <a id="system-activity-button">
-                        <div class="nav-btn"><span>Activites</span></div>
-                    </a>
-                    <a id="system-running-task">
-                        <div class="nav-btn"><img style="color:white" width="18px"
-                                src="./icons/org.gnome.Terminal-symbolic.svg"></img><span>Terminal</span></div>
-                    </a>
-                </li>
-
-            </ul>
-            </p>
+    <div class="wrapper-activities-menu">
+     <div class="system-activity-menu"><a id="system-activity-button">
+        <div class="nav-btn"><span>Activites</span></div>
+    </a>
+    <a id="system-running-task">
+        <div class="activitiy-running-btn nav-btn"><img style="color:white" width="18px"
+                src="./icons/org.gnome.Terminal-symbolic.svg"></img><span>Terminal</span></div>
+    </a></div></div>
+     <a id="system-notifications">
+        <div class="nav-btn"><span id="system-date">Dec 14 7:53 AM</span></div>
+    </a>
+     <a id="system-tray">
+        <div class="system-tray nav-btn">
+            <img width="18px" src="./icons/network-wireless-signal-good.svg"></img>
+            <img width="18px" src="./icons/audio-volume-medium.svg"></img>
+            <img width="18px" src="./icons/battery-080.svg"></img>
+            <span>40%</span>
         </div>
+    </a>
 
     </div>
 
@@ -60,12 +47,14 @@
                     </div>
                 </div>
                 <div class="window-non-controls">
-                    <a id="system-notifications">
+                    <a id="winodw-title">
                         <div class="window-titlebar-title"><span>Window Title (or stuff ig)</span></div>
                     </a>
                 </div>
             </div>
-            windowcontent
+            <div class="window-content">
+            
+            </div>
         </div>
     </section>
     <div class="Dock">
