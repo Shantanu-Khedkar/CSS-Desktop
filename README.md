@@ -31,7 +31,7 @@ be left incomplete, that would be integrated and redefined later.
 
 ## The Windowing System
 Once, CSS-Desktop has a solid base the windowing system needs to be attended to. This is where the JS comes into play.
-A extendable way of creating, addressing, and managing windows need to be made. A sort of an internal API that handles
+A extendable way of creating, adressing, and managing windows need to be made. A sort of an internal API that handles
 all the windows is going to have to be created. This API would be able to provide an easy way to create a window, add it
 to the list of open apps, and manage multiple instances of an app. The right-click menus in the bottom dock should work.
 A major challange in this is the active windows and how they will stack on each other (z-index). This API also has to deal
@@ -39,8 +39,8 @@ with window snapping.
 
 ## The Apps
 This part is very tricky and all steps prior to it must keep its implementation in mind. The windows will have running contents,
-and things should be able to work within them. Currently, I'm planning to run the apps off of iframes (I understand that it
-may be tricky to get them to interact with the desktop/underlying OS, so maybe some other window-content template.) The goal is to
+and thing should be able to work within them. Currently, I'm planning to run the apps off of iframes (I understand that it
+may be tricky to get them to interact with the desktop/underlying OS, so maybe some other window-content template. The goal is to
 have developers make HTML/CSS/JS 'apps' that run in the windows. It would be really cool if they could be written in C and compiled 
 to WASM, but im getting ahead of myself. Anyways, once CSS-Desktop has a way to display apps, the challange of permissions arises...
 Developers shouldn't be able to just delete parent components of the app they make. (I don't know how this might be possible)
